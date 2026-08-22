@@ -1,0 +1,138 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 240 10% 3.9%;
+    --card: 0 0% 100%;
+    --card-foreground: 240 10% 3.9%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 240 10% 3.9%;
+    --primary: 240 5.9% 10%;
+    --primary-foreground: 0 0% 98%;
+    --secondary: 240 4.8% 95.9%;
+    --secondary-foreground: 240 5.9% 10%;
+    --muted: 240 4.8% 95.9%;
+    --muted-foreground: 240 3.8% 46.1%;
+    --accent: 240 4.8% 95.9%;
+    --accent-foreground: 240 5.9% 10%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 240 5.9% 90%;
+    --input: 240 5.9% 90%;
+    --ring: 240 10% 3.9%;
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 240 10% 3.9%;
+    --foreground: 0 0% 98%;
+    --card: 240 10% 3.9%;
+    --card-foreground: 0 0% 98%;
+    --popover: 240 10% 3.9%;
+    --popover-foreground: 0 0% 98%;
+    --primary: 0 0% 98%;
+    --primary-foreground: 240 5.9% 10%;
+    --secondary: 240 3.7% 15.9%;
+    --secondary-foreground: 0 0% 98%;
+    --muted: 240 3.7% 15.9%;
+    --muted-foreground: 240 5% 64.9%;
+    --accent: 240 3.7% 15.9%;
+    --accent-foreground: 0 0% 98%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 240 3.7% 15.9%;
+    --input: 240 3.7% 15.9%;
+    --ring: 240 4.9% 83.9%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    background-color: #23252b;
+    color: #e2e8f0;
+    @apply antialiased min-h-screen relative overflow-x-hidden;
+    /* Prevent pull-to-refresh on mobile */
+    overscroll-behavior-y: none;
+    -webkit-user-select: none;
+    user-select: none;
+  }
+
+  .neo-bg {
+    background-color: #23252b;
+  }
+  
+  .neo-card {
+    background-color: #2a2c33;
+    border: 1px solid rgba(255, 255, 255, 0.04);
+    box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.35), 
+               -4px -4px 12px rgba(255, 255, 255, 0.03);
+  }
+  
+  .neo-inset {
+    background-color: #1e1f24;
+    box-shadow: inset 4px 4px 8px rgba(0, 0, 0, 0.4), 
+                inset -4px -4px 8px rgba(255, 255, 255, 0.02);
+    border: 1px solid rgba(255, 255, 255, 0.02);
+  }
+  
+  .neo-button {
+    background-color: #2a2c33;
+    border: 1px solid rgba(255, 255, 255, 0.03);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3), 
+               -3px -3px 8px rgba(255, 255, 255, 0.04);
+    transition: all 0.2s ease;
+  }
+  
+  .neo-button:active {
+    box-shadow: inset 4px 4px 8px rgba(0, 0, 0, 0.4), 
+                inset -3px -3px 6px rgba(255, 255, 255, 0.02);
+  }
+  
+  .neo-button-primary {
+    background-color: #e2e8f0;
+    color: #0f1115;
+    box-shadow: 0 0 16px rgba(255, 255, 255, 0.1);
+    transition: all 0.2s ease;
+  }
+  
+  .neo-button-primary:active {
+    transform: scale(0.97);
+  }
+  /* Fix iOS safe areas */
+  .pb-safe {
+    padding-bottom: env(safe-area-inset-bottom);
+  }
+  .safe-area-pt {
+    padding-top: env(safe-area-inset-top);
+  }
+}
+
+/* Custom Scrollbar for Neumorphic Dark Theme */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #23252b; /* Match body bg */
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb {
+  background: #474b57;
+  border-radius: 4px;
+  border: 2px solid #23252b; /* To give a nice padding effect */
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #5a5f6e;
+}
+
+/* For Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #474b57 #23252b;
+}

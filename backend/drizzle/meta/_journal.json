@@ -1,0 +1,13 @@
+{
+  "version": "6",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "6",
+      "when": 1785479035167,
+      "tag": "0000_wooden_red_ghost",
+      "breakpoints": true
+    }
+  ]
+}
