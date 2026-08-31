@@ -14,6 +14,7 @@ This project (`workout-tracker`) is a full-stack application (with `frontend` an
 - **Containerization**: The project runs on Docker/Docker Compose (`docker-compose.yml`, `nginx.conf`). 
 - **Start command**: Typically orchestrated via `docker-compose up`.
 - Always check the respective `package.json` in the subdirectories before adding dependencies.
+- **Git / GitHub**: When pushing changes to GitHub, use the SSH remote URL (`git@github.com:flrtsite/wo-tracker.git`) instead of HTTPS to leverage the configured SSH key.
 
 ## ⚠️ Boundaries & Rules
 - Do NOT modify `.env` files without explicit permission.
