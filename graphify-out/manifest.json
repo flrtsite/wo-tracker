@@ -1,0 +1,194 @@
+{
+  "backend/drizzle.config.ts": {
+    "mtime": 1785327151.695817,
+    "seen": 1789112308.590907,
+    "ast_hash": "6b605a57d53d741a0f39a0859c39c7ad",
+    "semantic_hash": "6b605a57d53d741a0f39a0859c39c7ad"
+  },
+  "backend/drizzle/0000_wooden_red_ghost.sql": {
+    "mtime": 1785479035.1650338,
+    "seen": 1789112308.5909102,
+    "ast_hash": "6e940deb85812fbe6e52a0de25d72a02",
+    "semantic_hash": "6e940deb85812fbe6e52a0de25d72a02"
+  },
+  "backend/drizzle/meta/0000_snapshot.json": {
+    "mtime": 1785479035.1650338,
+    "seen": 1789112308.5909116,
+    "ast_hash": "a490deaf88476e764133243cd167f239",
+    "semantic_hash": "a490deaf88476e764133243cd167f239"
+  },
+  "backend/drizzle/meta/_journal.json": {
+    "mtime": 1785479035.1650338,
+    "seen": 1789112308.5909135,
+    "ast_hash": "d3ed48a244f25238c6953ec61b6f7bc0",
+    "semantic_hash": "d3ed48a244f25238c6953ec61b6f7bc0"
+  },
+  "backend/package.json": {
+    "mtime": 1785461261.4256008,
+    "seen": 1789112308.590915,
+    "ast_hash": "786a68861dedad5c666414e1a8c92637",
+    "semantic_hash": "786a68861dedad5c666414e1a8c92637"
+  },
+  "backend/src/admin-routes.ts": {
+    "mtime": 1785474794.316837,
+    "seen": 1789112308.5909166,
+    "ast_hash": "493224e221a4de7d576d01ab2e870e12",
+    "semantic_hash": "493224e221a4de7d576d01ab2e870e12"
+  },
+  "backend/src/db/index.ts": {
+    "mtime": 1785327153.9078562,
+    "seen": 1789112308.590918,
+    "ast_hash": "64db750839024592619c8ab12a73fd36",
+    "semantic_hash": "64db750839024592619c8ab12a73fd36"
+  },
+  "backend/src/db/schema.ts": {
+    "mtime": 1785479021.2207806,
+    "seen": 1789112308.5909266,
+    "ast_hash": "8287bff5e5404a17dd461d93c3fc3216",
+    "semantic_hash": "8287bff5e5404a17dd461d93c3fc3216"
+  },
+  "backend/src/index.ts": {
+    "mtime": 1785486410.5277102,
+    "seen": 1789112308.5909286,
+    "ast_hash": "b53b5b2d1c85999e87b3eb3473ff336c",
+    "semantic_hash": "b53b5b2d1c85999e87b3eb3473ff336c"
+  },
+  "backend/tsconfig.json": {
+    "mtime": 1785327148.8837671,
+    "seen": 1789112308.5909302,
+    "ast_hash": "832aa85462191e6b7ef21fcc8e9f7f4a",
+    "semantic_hash": "832aa85462191e6b7ef21fcc8e9f7f4a"
+  },
+  "frontend/package.json": {
+    "mtime": 1787386772.5851939,
+    "seen": 1789112308.5909314,
+    "ast_hash": "17ecc4542b1c283bb4c90a04ef5ccbab",
+    "semantic_hash": "17ecc4542b1c283bb4c90a04ef5ccbab"
+  },
+  "frontend/postcss.config.js": {
+    "mtime": 1785327390.0600443,
+    "seen": 1789112308.590933,
+    "ast_hash": "ef3ba2a81ba19f8ea5ddf625521e96f0",
+    "semantic_hash": "ef3ba2a81ba19f8ea5ddf625521e96f0"
+  },
+  "frontend/src/App.tsx": {
+    "mtime": 1787392087.6247718,
+    "seen": 1789112308.5909343,
+    "ast_hash": "526e8882a37be785b0ba86b3f6e88905",
+    "semantic_hash": "526e8882a37be785b0ba86b3f6e88905"
+  },
+  "frontend/src/components/AdminPanel.tsx": {
+    "mtime": 1787391475.5851712,
+    "seen": 1789112308.5909355,
+    "ast_hash": "2a277188dbdee1ad0ebaee8745fb5e33",
+    "semantic_hash": "2a277188dbdee1ad0ebaee8745fb5e33"
+  },
+  "frontend/src/components/ProgressChart.tsx": {
+    "mtime": 1787387730.9028363,
+    "seen": 1789112308.5909367,
+    "ast_hash": "c758508b69a80999151562ff88cea7bd",
+    "semantic_hash": "c758508b69a80999151562ff88cea7bd"
+  },
+  "frontend/src/components/ui/button.tsx": {
+    "mtime": 1785327385.7119672,
+    "seen": 1789112308.5909376,
+    "ast_hash": "b5facf430c50962cf7fb6b06341e9e84",
+    "semantic_hash": "b5facf430c50962cf7fb6b06341e9e84"
+  },
+  "frontend/src/lib/db.ts": {
+    "mtime": 1785474900.4547527,
+    "seen": 1789112308.5909386,
+    "ast_hash": "8973c6ae248e24483dc1e1912b4613f7",
+    "semantic_hash": "8973c6ae248e24483dc1e1912b4613f7"
+  },
+  "frontend/src/lib/utils.ts": {
+    "mtime": 1785483311.314988,
+    "seen": 1789112308.5909393,
+    "ast_hash": "287638fe5adc76b48b119649198672e8",
+    "semantic_hash": "287638fe5adc76b48b119649198672e8"
+  },
+  "frontend/src/main.tsx": {
+    "mtime": 1785327198.036639,
+    "seen": 1789112308.5909405,
+    "ast_hash": "b3d7096ad02cdf88f5c51e834d22419b",
+    "semantic_hash": "b3d7096ad02cdf88f5c51e834d22419b"
+  },
+  "frontend/tailwind.config.js": {
+    "mtime": 1785328497.1836858,
+    "seen": 1789112308.5909414,
+    "ast_hash": "2e99db6384fc1bd380525d2315052883",
+    "semantic_hash": "2e99db6384fc1bd380525d2315052883"
+  },
+  "frontend/tsconfig.json": {
+    "mtime": 1785327797.7712662,
+    "seen": 1789112308.5909424,
+    "ast_hash": "34488de4eac542b514c73d991e5e26d7",
+    "semantic_hash": "34488de4eac542b514c73d991e5e26d7"
+  },
+  "frontend/vite.config.ts": {
+    "mtime": 1785507569.6695879,
+    "seen": 1789112308.5909436,
+    "ast_hash": "b08ffbcd12e25f142e78a689cb912509",
+    "semantic_hash": "b08ffbcd12e25f142e78a689cb912509"
+  },
+  "conversation_history.md": {
+    "mtime": 1785507898.6915598,
+    "seen": 1789112308.5909448,
+    "ast_hash": "2bb4799aea2716d22544f1a6cb17bd35",
+    "semantic_hash": "2bb4799aea2716d22544f1a6cb17bd35"
+  },
+  "docker-compose.yml": {
+    "mtime": 1785488266.5455468,
+    "seen": 1789112308.5909457,
+    "ast_hash": "20f0b5c5aa953f680a3356e2ea206d10",
+    "semantic_hash": "20f0b5c5aa953f680a3356e2ea206d10"
+  },
+  "frontend/index.html": {
+    "mtime": 1785507569.613587,
+    "seen": 1789112308.590947,
+    "ast_hash": "f504e913350da2478d624a4f88b6a06a",
+    "semantic_hash": "f504e913350da2478d624a4f88b6a06a"
+  },
+  "design/d3290730464f232887fbad77020fbb98.jpg": {
+    "mtime": 1785507421.1028917,
+    "seen": 1789112308.5909476,
+    "ast_hash": "698feda7c862953df8ac45bc7f791ac7",
+    "semantic_hash": "698feda7c862953df8ac45bc7f791ac7"
+  },
+  "design/gymhamster.jpg": {
+    "mtime": 1785505656.142846,
+    "seen": 1789112308.5909486,
+    "ast_hash": "472249a65f21e264abb3be75a0642b7e",
+    "semantic_hash": "472249a65f21e264abb3be75a0642b7e"
+  },
+  "design/theme2.jpg": {
+    "mtime": 1785500759.4319842,
+    "seen": 1789112308.5909495,
+    "ast_hash": "c06b06a23ebdd3e01ddb2d2270914bff",
+    "semantic_hash": "c06b06a23ebdd3e01ddb2d2270914bff"
+  },
+  "design/theme3.jpg": {
+    "mtime": 1785500759.3039818,
+    "seen": 1789112308.5909505,
+    "ast_hash": "e908322a762bddfc7ba84b9b5ec9fdb2",
+    "semantic_hash": "e908322a762bddfc7ba84b9b5ec9fdb2"
+  },
+  "frontend/public/gymhamster.jpg": {
+    "mtime": 1785505859.6825485,
+    "seen": 1789112308.5909514,
+    "ast_hash": "472249a65f21e264abb3be75a0642b7e",
+    "semantic_hash": "472249a65f21e264abb3be75a0642b7e"
+  },
+  "design/theme.jpg": {
+    "mtime": 1785495768.4821196,
+    "seen": 1789176464.7909057,
+    "ast_hash": "52cf88865a320500ec179fbb2929c0e2",
+    "semantic_hash": "52cf88865a320500ec179fbb2929c0e2"
+  },
+  "frontend/public/app_icon.jpg": {
+    "mtime": 1785507451.7794483,
+    "seen": 1789176464.7909098,
+    "ast_hash": "698feda7c862953df8ac45bc7f791ac7",
+    "semantic_hash": "698feda7c862953df8ac45bc7f791ac7"
+  }
+}
